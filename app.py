@@ -322,7 +322,7 @@ def multivariate_lstm(ticker_symbol):
 
 # Streamlit App
 def dashboard():
-    st.title("RISE.ai Web Portal")
+    st.title("Real Time Stock Analysis")
 
     # Sidebar for selecting a company
     selected_company = st.sidebar.selectbox("Select Company:", nifty_fifty_companies)
